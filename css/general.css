@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Mighty Kingdom";
+  src: url("fonts/Mighty-Kingdom.eot");
+  src: url("fonts/Mighty-Kingdom.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Mighty-Kingdom.woff2") format("woff2"),
+    url("fonts/Mighty-Kingdom.woff") format("woff"),
+    url("fonts/Mighty-Kingdom.ttf") format("truetype"),
+    url("fonts/Mighty-Kingdom.svg#Mighty Kingdom") format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mighty Kingdom";
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  font-size: 2.4rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s;
+  text-transform: uppercase;
+
+  border: none;
+  cursor: pointer;
+}
+.btn-cta:link,
+.btn-cta:visited {
+  background-color: #e48db2;
+  color: #fff;
+}
+.btn-cta:hover,
+.btn-cta:active {
+  background-color: #5b3847;
+}
