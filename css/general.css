@@ -27,6 +27,15 @@ body {
   color: #555;
   overflow-x: hidden;
 }
+.subheading {
+  display: block;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #e48db2;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
 
 .btn,
 .btn:link,
@@ -51,4 +60,13 @@ body {
 .btn-cta:hover,
 .btn-cta:active {
   background-color: #5b3847;
+}
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
 }

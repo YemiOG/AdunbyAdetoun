@@ -16,7 +16,7 @@
 }
 
 /* ****************************** */
-/* NAVIGATIOn */
+/* NAVIGATION */
 /* ****************************** */
 .main-nav-list {
   list-style: none;
@@ -42,6 +42,7 @@
 .hero-section {
   background-color: #bceae2;
   padding: 4.8rem 0 9.6rem 0;
+  margin-bottom: 6.4rem;
 }
 .hero {
   max-width: 130rem;
@@ -67,4 +68,83 @@
 .hero-img {
   width: 100%;
   border-radius: 9px;
+}
+
+/* ****************************** */
+/* MENU */
+/* ****************************** */
+.menu-section {
+  padding: 9.6rem 0;
+  margin-bottom: 100px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+  margin-bottom: 9.6rem;
+  margin-bottom: 4.8rem !important;
+}
+.best-seller {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.menu-pricing {
+}
+
+.menu-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 1.6rem;
+}
+
+.menu-img {
+  width: 50%;
+  transform: rotate(90deg);
+}
+.best-seller-content {
+  padding: 4.8rem;
+}
+
+.menu-tags {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: gold;
+  color: #333;
+  letter-spacing: 1.2;
+  border-radius: 100px;
+  font-weight: 600;
+}
+.best-seller:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.045);
+}
+
+.tertiary-heading {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
