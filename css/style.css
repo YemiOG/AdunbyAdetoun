@@ -128,9 +128,22 @@
   font-size: 1.8rem;
   gap: 1.6rem;
 }
-
+.menu-img-wrap {
+  width: 33rem;
+  height: 33rem;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.best-seller.one .menu-img-wrap{
+  background-image: url(/content/img/brownie.jpeg);
+}
+.best-seller.two .menu-img-wrap{
+  background-image: url(/content/img/cookies.jpg);
+}
 .menu-img {
-  width: 75%;
+  max-width: 100%;
 }
 .best-seller-content {
   padding: 4.8rem;
