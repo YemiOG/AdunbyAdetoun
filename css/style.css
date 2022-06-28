@@ -84,6 +84,7 @@
   column-gap: 6.4rem;
   margin-bottom: 9.6rem;
   margin-bottom: 4.8rem !important;
+  padding: 4.8rem;
 }
 .best-seller {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -99,7 +100,7 @@
   gap: 2rem;
 }
 .best-seller-attributes {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
@@ -108,7 +109,7 @@
   margin-bottom: 3rem;
 }
 .menu-title {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
@@ -128,6 +129,14 @@
   font-size: 1.8rem;
   gap: 1.6rem;
 }
+.list-item:last-child {
+  margin-bottom: 2rem;
+}
+ion-icon {
+  color: #46a292;
+  font-size: 1.8rem;
+}
+
 .menu-img-wrap {
   width: 33rem;
   height: 33rem;
@@ -136,10 +145,10 @@
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
 }
-.best-seller.one .menu-img-wrap{
+.best-seller.one .menu-img-wrap {
   background-image: url(/content/img/brownie.jpeg);
 }
-.best-seller.two .menu-img-wrap{
+.best-seller.two .menu-img-wrap {
   background-image: url(/content/img/cookies.jpg);
 }
 .menu-img {
@@ -159,6 +168,7 @@
   letter-spacing: 1.2;
   border-radius: 100px;
   font-weight: 600;
+  margin-top: 1.2rem;
 }
 .best-seller:hover {
   transform: translateY(-1.2rem);
@@ -177,3 +187,7 @@
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
+
+/* ****************************** */
+/* TESTIMONIAL */
+/* ****************************** */
