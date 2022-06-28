@@ -90,10 +90,23 @@
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+  width: 33rem;
 }
-.menu-pricing {
+.best-seller-attribute {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-
+.best-seller-attributes {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.best-seller-attributes:last-child {
+  margin-bottom: 3rem;
+}
 .menu-title {
   font-size: 2.4rem;
   color: #333;
@@ -117,8 +130,7 @@
 }
 
 .menu-img {
-  width: 50%;
-  transform: rotate(90deg);
+  width: 75%;
 }
 .best-seller-content {
   padding: 4.8rem;
@@ -139,7 +151,11 @@
   transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.045);
 }
-
+.secondary-heading {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
 .tertiary-heading {
   font-weight: 700;
   color: #333;
